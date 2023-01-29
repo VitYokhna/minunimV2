@@ -11,7 +11,6 @@ export const name = `${firstName} ${lastName}`
 export const siteName = `minunim`
 
 // Used for the landing page & footer of posts
-export const avatar = '../static/avatar.png'
 export const bio = 'welcome'
 
 // Your social usernames, empty strings won't be used.

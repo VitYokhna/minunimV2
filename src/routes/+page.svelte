@@ -2,7 +2,8 @@
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
   // import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import { avatar, bio, name, siteName } from '$lib/info.js'
+  import { bio, name, siteName } from '$lib/info.js'
+  import avatar from '../assets/avatar.png'
 
   /** @type {import('./$types').PageData} */
   export let data
