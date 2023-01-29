@@ -5,18 +5,14 @@
 // URL of your website
 export const website = 'https://sveltekit-blog-template.vercel.app'
 
-export const firstName = 'Jordan'
-export const lastName = 'Doe'
+export const firstName = 'Vitaliy'
+export const lastName = 'Yokhna'
 export const name = `${firstName} ${lastName}`
+export const siteName = `minunim`
 
 // Used for the landing page & footer of posts
-export const avatar = 'https://api.lorem.space/image/face?w=250&h=250'
-export const bio = `\
-I’m ${firstName}, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
-`
+export const avatar = '../static/avatar.png'
+export const bio = 'welcome'
 
 // Your social usernames, empty strings won't be used.
 // For sake of the live demo, I'm using `username/repo` for github,

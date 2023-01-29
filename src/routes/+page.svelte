@@ -1,15 +1,15 @@
 <script>
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
-  import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import { avatar, bio, name } from '$lib/info.js'
+  // import SocialLinks from '$lib/components/SocialLinks.svelte'
+  import { avatar, bio, name, siteName } from '$lib/info.js'
 
   /** @type {import('./$types').PageData} */
   export let data
 </script>
 
 <svelte:head>
-  <title>{name}</title>
+  <title>{siteName}</title>
   <meta name="description" content={bio} />
 </svelte:head>
 
@@ -22,10 +22,10 @@
         alt={name}
         class="mx-auto rounded-full w-36 h-36 ring-2 ring-zinc-200 dark:ring-zinc-700"
       />
-      <div class="flex gap-6">
+      <!-- <div class="flex gap-6">
         <SocialLinks />
-      </div>
-      <p class="text-base text-zinc-600 dark:text-zinc-400">
+      </div> -->
+      <p class="text-xl font-bold text-zinc-600 dark:text-zinc-400">
         {bio}
       </p>
     </div>

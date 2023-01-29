@@ -89,10 +89,9 @@
       </div>
     </article>
 
-    <!-- bio -->
-    <hr />
-    <div class="py-8">
-      <div class="grid gap-8">
+    <!-- footer -->
+    <div class="pt-8 pb-4">
+      <!-- <div class="grid gap-8">
         <div class="flex justify-center order-1 col-span-2 gap-6 md:order-2">
           <SocialLinks />
         </div>
@@ -108,7 +107,7 @@
         <p class="order-3 text-base text-zinc-600 dark:text-zinc-400">
           {bio}
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 
