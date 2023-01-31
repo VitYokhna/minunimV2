@@ -1,5 +1,5 @@
 <script>
-  import { siteName } from '$lib/info.js'
+  import { name } from '$lib/info.js'
   import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
@@ -12,14 +12,12 @@
 </script>
 
 <svelte:head>
-  <title>{siteName} | Posts</title>
+  <title>{name} | Posts</title>
 </svelte:head>
 
 <div class="flex flex-col flex-grow">
   <header class="pt-4">
-    <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
-      Writing on whatever I feel like
-    </h1>
+    <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Writing on whatever I feel like</h1>
     <p class="mt-6">All of my written content collected in one place</p>
   </header>
 

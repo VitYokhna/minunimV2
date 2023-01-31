@@ -9,7 +9,7 @@ if (browser) {
 }
 
 // Get all posts and add metadata
-export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: true }))
+export const posts = Object.entries(import.meta.glob('/posts/**/*.svx', { eager: true }))
   .map(([filepath, post]) => {
     const html = parse(post.default.render().html)
     const preview = post.metadata.preview ? parse(post.metadata.preview) : html.querySelector('p')
@@ -19,13 +19,13 @@ export const posts = Object.entries(import.meta.glob('/posts/**/*.md', { eager: 
 
       // generate the slug from the file path
       slug: filepath
-        .replace(/(\/index)?\.md/, '')
+        .replace(/(\/index)?\.svx/, '')
         .split('/')
         .pop(),
 
-      // whether or not this file is `my-post.md` or `my-post/index.md`
+      // whether or not this file is `my-post.svx` or `my-post/index.svx`
       // (needed to do correct dynamic import in posts/[slug].svelte)
-      isIndexFile: filepath.endsWith('/index.md'),
+      isIndexFile: filepath.endsWith('/index.svx'),
 
       // format date as yyyy-MM-dd
       date: post.metadata.date

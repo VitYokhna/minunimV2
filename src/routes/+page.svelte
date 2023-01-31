@@ -2,7 +2,7 @@
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
   // import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import { bio, name, siteName } from '$lib/info.js'
+  import { bio, name } from '$lib/info.js'
   import avatar from '../assets/avatar.png'
 
   /** @type {import('./$types').PageData} */
@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-  <title>{siteName}</title>
+  <title>{name}</title>
   <meta name="description" content={bio} />
 </svelte:head>
 

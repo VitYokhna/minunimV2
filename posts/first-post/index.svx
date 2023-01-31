@@ -1,0 +1,16 @@
+---
+title: First Post
+date: 2023-01-29
+---
+<script>
+    import burdock from './burdock.jpg'
+    import Image from '$lib/components/Image.svelte'
+</script>
+
+Everything has a beginnig, and this post is the beginning of god knows what that is meant to be a blog.
+
+Here's a wizened burdock for you, my friend.
+
+<Image src={burdock}  alt="burdock"/>
+
+<span class="text-sm text-teal-500">PS. And here goes the first benefit from this blog. 2 new words ("wizened" and "burdock") have just been learned.</span>
