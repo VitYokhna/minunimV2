@@ -1,0 +1,18 @@
+---
+title: Wizard
+date: 2023-01-31
+---
+<script>
+    import wizard from './wizard.jpg'
+    import Image from '$lib/components/Image.svelte'
+</script>
+
+When producing nothing of value for a long period of time, one's mind becomes inert and sluggish. 
+It can be felt in the end of a long vacation. It's vital to kickstart the guy as soon as possible until it becomes a zombie.
+
+During last several weeks I already started to feel my greeny's rotten smell. 
+Luckily, I had a chance to meet my old school friend. He appeared to be a wizard and he knew the spell of kicking zombie's ass.
+
+January 29 was a good, cold day. Also it was the last sunday of the month.
+
+<Image src={wizard}  alt="wizard"/>
